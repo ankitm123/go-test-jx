@@ -12,7 +12,7 @@ spec:
   - name: release
     context: "release"
     source: "release.yaml"
-    ignore_changes: "skip.md"
+    ignore_changes: "OWNERS"
     branches:
     - ^main$
     - ^master$
